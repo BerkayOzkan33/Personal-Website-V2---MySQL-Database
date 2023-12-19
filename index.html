@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/icons8-home-64.png">
+    <title>Personal Website V2</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_content">
+            <div class="header_text">
+                <h1>Welcome To My Personal Website!</h1>
+            </div>
+
+            <div class="header_links">
+                <ul>
+                    <li><a href="#pointer_header"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#skills_pointer"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li><a href="#education_pointer"><i class="fa-solid fa-book"></i> Education</a></li>
+                    <li><a href="#contact_pointer"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="pointer_header">
+        <div class="profile">
+            <div class="profile_pic">
+                <img src="Images/resim.jpeg" alt="">
+            </div>
+            <div class="profile_text">
+                <h2>Berkay Özkan <br> Web Developer Candidate</h2>
+            </div>
+        </div>
+
+        <div class="about">
+            <p>Hello! My name is Berkay. I am a student at Toros University, Department of Computer Programming.</p>
+        </div>
+
+        <div class="skills" id="skills_pointer">
+            <div class="text_skills">
+                <h1>-Skills-</h1>
+            </div>
+
+            <div class="logo_skills">
+                <div class="logo_item">
+                    <img src="Images/html.png" alt="">
+                    <h3>HTML5</h3>
+                </div>
+
+                <div class="logo_item">
+                    <img src="Images/css.png" alt="">
+                    <h3>CSS3</h3>
+                </div>
+
+                <div class="logo_item">
+                    <img src="Images/javascript.png" alt="">
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="logo_item">
+                    <img src="Images/bootstrap.png" alt="">
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="education" id="education_pointer">
+            <div class="education_title">
+                <h1>-Education-</h1>
+            </div>
+
+            <div class="education_text">
+                <ul>
+                    <li><i class="fa-solid fa-school" style="color: #008000;"></i> Mehmet Serttaş Anatolian High School
+                        - English</li>
+                    <li><i class="fa-solid fa-building-columns" style="color: #008000;"></i> Toros University - Computer
+                        Programming</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact" id="contact_pointer">
+            <div class="contact_item">
+                <h1>-Contact Me!-</h1>
+                <form action="baglanti.php" method="POST" id="myForm">
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" style="width: 235px; height: 25px;" name="kullaniciadi"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Surname:</td>
+                            <td><input type="text" style="width: 235px; height: 25px;" name="kullanicisoyadi"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" style="width: 235px; height: 25px;" name="email"></td>
+                        </tr>
+
+                        <br>
+                        <tr>
+                            <td>Message:</td>
+                            <td><textarea name="mesaj" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" style="width: 100px; height: 25px;" id="submit" name="kaydet"></td>
+                            <td><input type="reset" style="width: 100px; height: 25px;" id="reset"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="footer_icons">
+            <a href="https://github.com/BerkayOzkan33" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/berkay-%C3%B6zkan-a8b04b27b/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ozkan_berkay33/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ozkan_berk37387" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

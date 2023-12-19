@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EBE3D5;
+    color: #333;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Header Kısmı*/
+header {
+    width: 100%;
+    height: 125px;
+    background-color: #B0A695;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header_content {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_links ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header_links ul li a {
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+
+}
+
+.header_links ul li a:hover{
+    color: #F3EEEA;
+}
+
+/*İçerik Kısmı*/
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.profile .profile_pic img {
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid green;
+}
+
+.profile .profile_pic img:hover {
+    scale: 1.05;
+}
+
+
+.profile .profile_text {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about {
+    margin-top: 5px;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px auto;
+}
+
+.skills .text_skills {
+    margin: 15px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills .logo_skills img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 25px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.skills .logo_skills {
+    text-align: center;
+}
+
+.skills .logo_item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.skills .logo_item h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills .logo_skills img:hover {
+    scale: 1.1;
+}
+
+.education {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px auto;
+}
+
+.education .education_title h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.education_text ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px auto;
+}
+
+input{
+    border-radius: 10px;
+    border: 1.5px solid #191970;
+    font-size: 18px;
+    transition: 0.4s;
+    text-indent: 5px;
+}
+
+input:hover{
+    color: #333;
+    background-color: #F3EEEA;
+    transition: 0.4s;
+}
+
+textarea{
+    border-radius: 10px;
+    resize: none;
+    text-indent: 10px;
+}
+
+textarea:hover{
+    color: #333;
+    background-color: #F3EEEA;
+    transition: 0.4s;
+   
+}
+
+td {
+    padding: 5px;
+    font-size: x-large;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+}
+
+tr {
+    font-size: x-large;
+}
+
+#submit:hover{
+    background-color: green;
+    color: whitesmoke;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: red;
+    color: whitesmoke;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.contact .contact_item h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Footer Bölümü*/
+
+footer{
+    width: 100%;
+    height: 125px;
+    background-color:  #B0A695;
+}
+
+.footer_icons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_icons a{
+    font-size: 50px;
+    color: #333;
+    margin: auto 30px;
+    transition: 0.4s;
+}
+
+.footer_icons a:hover{
+   scale: 1.1;
+   color: #F3EEEA;
+}
