@@ -272,3 +272,236 @@ footer{
    scale: 1.1;
    color: #F3EEEA;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:1043px) {
+    .header_text h1 {
+        font-size: 25px;
+    }
+
+    .header_links ul li a {
+        font-size: 20px;
+    }
+
+    .education {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:913px) {
+
+    .profile .profile_pic img {
+        width: 190px;
+    }
+
+    .header_text h1 {
+        font-size: 20px;
+    }
+
+    .header_links ul li a {
+        font-size: 15px;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .education_text ul li {
+        font-size: 16px;
+    }
+
+    .about p {
+        font-size: 16.5px;
+    }
+
+    .profile_text h2 {
+        font-size: 20px;
+    }
+
+    .logo_skills .logo_item img{
+        width: 50%;
+        height: 80px;
+    }
+
+    .text_skills h1 {
+        font-size: 20px;
+    }
+
+    .education_title h1 {
+        font-size: 20px;
+    }
+
+    .logo_item h3 {
+        font-size: 15px;
+    }
+
+    .contact_item h1 {
+        font-size: 20px;
+    }
+
+    #myForm table tr td {
+        font-size: 20px;
+    }
+
+    .footer_icons a {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:751px) {
+
+    .profile .profile_pic img {
+        width: 170px;
+    }
+
+    .header_text h1 {
+        font-size: 17px;
+    }
+
+    .header_links ul li a {
+        font-size: 12px;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .education_text ul li {
+        font-size: 13px;
+    }
+
+    .about p {
+        font-size: 13.5px;
+    }
+
+    .profile_text h2 {
+        font-size: 17px;
+    }
+
+    .logo_skills .logo_item img{
+        width: 40%;
+        height: 70px;
+    }
+
+    .text_skills h1 {
+        font-size: 17px;
+    }
+
+    .education_title h1 {
+        font-size: 17px;
+    }
+
+    .logo_item h3 {
+        font-size: 12px;
+    }
+
+    .contact_item h1 {
+        font-size: 17px;
+    }
+
+    #myForm table tr td {
+        font-size: 17px;
+    }
+
+    .footer_icons a {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:617px) {
+    .profile .profile_pic img {
+        width: 150px;
+    }
+    .header_text h1 {
+        font-size: 15px;
+    }
+
+    .header_links ul li {
+        display: block;
+    }
+
+    .header_links ul li a {
+        font-size: 10px;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .education_text ul li {
+        font-size: 11px;
+    }
+
+    .about p {
+        font-size: 11.5px;
+    }
+
+    .profile_text h2 {
+        font-size: 15px;
+    }
+
+    .logo_skills .logo_item img{
+        width: 35%;
+        height: 60px;
+    }
+
+    .text_skills h1 {
+        font-size: 15px;
+    }
+
+    .education_title h1 {
+        font-size: 15px;
+    }
+
+    .logo_item h3 {
+        font-size: 10px;
+    }
+
+    .contact_item h1 {
+        font-size: 15px;
+    }
+
+    #myForm table tr td {
+        font-size: 15px;
+    }
+
+    .footer_icons a {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:529px) {
+    .education {
+        width: 100%;
+    }
+
+    .education_text ul li {
+        font-size: 11px;
+        display: block;
+    }
+
+    .about p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:463px) {
+
+    .education {
+        width: 100%;
+    }
+
+    .about p {
+        font-size: 9px;
+    }
+
+    #myForm table tr td {
+        font-size: 13px;
+    }
+
+    .footer_icons a {
+        font-size: 30px;
+    }
+
+}
